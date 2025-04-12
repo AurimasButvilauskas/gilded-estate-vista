@@ -64,6 +64,45 @@ export type Database = {
           },
         ]
       }
+      consultation_requests: {
+        Row: {
+          concierge_id: number
+          created_at: string
+          email: string
+          id: string
+          name: string
+          notes: string | null
+          phone: string
+          requested_date: string
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          concierge_id: number
+          created_at?: string
+          email: string
+          id?: string
+          name: string
+          notes?: string | null
+          phone: string
+          requested_date: string
+          status?: string
+          updated_at?: string
+        }
+        Update: {
+          concierge_id?: number
+          created_at?: string
+          email?: string
+          id?: string
+          name?: string
+          notes?: string | null
+          phone?: string
+          requested_date?: string
+          status?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       contact_messages: {
         Row: {
           assigned_to: string | null

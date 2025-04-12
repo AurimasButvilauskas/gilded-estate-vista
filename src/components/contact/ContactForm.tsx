@@ -1,11 +1,19 @@
 
-import { useTranslation } from "react-i18next";
+import { useState } from "react";
 import { useForm } from "react-hook-form";
-import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { z } from "zod";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import {
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
+} from "@/components/ui/form";
 import {
   Select,
   SelectContent,
@@ -13,45 +21,36 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import {
-  Form,
-  FormControl,
-  FormDescription,
-  FormField,
-  FormItem,
-  FormLabel,
-  FormMessage,
-} from "@/components/ui/form";
-import { useState } from "react";
+import { useToast } from "@/hooks/use-toast";
 import { supabase } from "@/integrations/supabase/client";
-import { toast } from "@/hooks/use-toast";
+import { useTranslation } from "react-i18next";
 
-// Define the form schema
 const contactFormSchema = z.object({
   name: z.string().min(2, {
-    message: "Vardas turi būti bent 2 simbolių ilgio.",
+    message: "Vardas turi būti bent 2 simbolių ilgio",
   }),
   email: z.string().email({
-    message: "Įveskite teisingą el. pašto adresą.",
+    message: "Neteisingas el. pašto formatas",
   }),
   phone: z.string().optional(),
   inquiryType: z.string({
-    required_error: "Pasirinkite užklausos tipą.",
+    required_error: "Pasirinkite užklausos tipą",
   }),
-  preferredContact: z.enum(["email", "phone", "any"], {
-    required_error: "Pasirinkite pageidaujamą kontakto būdą.",
+  preferredContact: z.string({
+    required_error: "Pasirinkite pageidaujamą kontaktavimo būdą",
   }),
   message: z.string().min(10, {
-    message: "Žinutė turi būti bent 10 simbolių ilgio.",
+    message: "Žinutė turi būti bent 10 simbolių ilgio",
   }),
 });
 
 type ContactFormValues = z.infer<typeof contactFormSchema>;
 
-export function ContactForm() {
+export const ContactForm = () => {
   const { t } = useTranslation();
+  const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
-  
+
   const form = useForm<ContactFormValues>({
     resolver: zodResolver(contactFormSchema),
     defaultValues: {
@@ -59,134 +58,118 @@ export function ContactForm() {
       email: "",
       phone: "",
       inquiryType: "",
-      preferredContact: "email",
+      preferredContact: "",
       message: "",
     },
   });
 
-  async function onSubmit(data: ContactFormValues) {
+  const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
-    
+
     try {
-      // Submit to Supabase contact_messages table
-      const { error } = await supabase
-        .from('contact_messages')
-        .insert([
-          {
-            name: data.name,
-            email: data.email,
-            phone: data.phone || null,
-            inquiry_type: data.inquiryType,
-            preferred_contact: data.preferredContact,
-            message: data.message,
-            status: 'new'
-          }
-        ]);
-      
+      const { error } = await supabase.from("contact_messages").insert({
+        name: data.name,
+        email: data.email,
+        phone: data.phone || null,
+        inquiry_type: data.inquiryType, 
+        preferred_contact: data.preferredContact,
+        message: data.message,
+        status: "new",
+      });
+
       if (error) throw error;
-      
+
       toast({
         title: t('contact.form.success'),
         description: t('contact.form.successMessage'),
       });
-      
-      // Reset form
+
       form.reset();
-      
     } catch (error) {
-      console.error("Error submitting form:", error);
+      console.error("Klaida siunčiant kontaktinę formą:", error);
       toast({
+        variant: "destructive",
         title: t('contact.form.error'),
         description: t('contact.form.errorMessage'),
-        variant: "destructive",
       });
     } finally {
       setIsSubmitting(false);
     }
-  }
+  };
 
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg border border-luxury-gold/20">
-      <h3 className="text-2xl font-playfair font-bold text-luxury-navy mb-6">
-        {t('contact.form.title')}
-      </h3>
-      
+    <div className="bg-white p-6 rounded-lg shadow-md">
+      <h2 className="text-2xl font-playfair font-bold text-luxury-navy mb-6">{t('contact.form.title')}</h2>
+
       <Form {...form}>
-        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <FormField
-              control={form.control}
-              name="name"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('contact.form.name')}</FormLabel>
+        <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+          <FormField
+            control={form.control}
+            name="name"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>{t('contact.form.name')}</FormLabel>
+                <FormControl>
+                  <Input placeholder={t('contact.form.namePlaceholder')} {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+
+          <FormField
+            control={form.control}
+            name="email"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>{t('contact.form.email')}</FormLabel>
+                <FormControl>
+                  <Input type="email" placeholder={t('contact.form.emailPlaceholder')} {...field} />
+                </FormControl>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+
+          <FormField
+            control={form.control}
+            name="phone"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>{t('contact.form.phone')}</FormLabel>
+                <FormControl>
+                  <Input placeholder={t('contact.form.phonePlaceholder')} {...field} />
+                </FormControl>
+                <FormMessage className="text-xs">{t('contact.form.phoneOptional')}</FormMessage>
+              </FormItem>
+            )}
+          />
+
+          <FormField
+            control={form.control}
+            name="inquiryType"
+            render={({ field }) => (
+              <FormItem>
+                <FormLabel>{t('contact.form.inquiryType')}</FormLabel>
+                <Select onValueChange={field.onChange} defaultValue={field.value}>
                   <FormControl>
-                    <Input placeholder={t('contact.form.namePlaceholder')} {...field} />
+                    <SelectTrigger>
+                      <SelectValue placeholder={t('contact.form.inquiryTypePlaceholder')} />
+                    </SelectTrigger>
                   </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            
-            <FormField
-              control={form.control}
-              name="email"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('contact.form.email')}</FormLabel>
-                  <FormControl>
-                    <Input placeholder={t('contact.form.emailPlaceholder')} {...field} />
-                  </FormControl>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <FormField
-              control={form.control}
-              name="phone"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('contact.form.phone')}</FormLabel>
-                  <FormControl>
-                    <Input placeholder={t('contact.form.phonePlaceholder')} {...field} />
-                  </FormControl>
-                  <FormDescription>
-                    {t('contact.form.phoneOptional')}
-                  </FormDescription>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-            
-            <FormField
-              control={form.control}
-              name="inquiryType"
-              render={({ field }) => (
-                <FormItem>
-                  <FormLabel>{t('contact.form.inquiryType')}</FormLabel>
-                  <Select onValueChange={field.onChange} defaultValue={field.value}>
-                    <FormControl>
-                      <SelectTrigger>
-                        <SelectValue placeholder={t('contact.form.inquiryTypePlaceholder')} />
-                      </SelectTrigger>
-                    </FormControl>
-                    <SelectContent>
-                      <SelectItem value="property_viewing">{t('contact.form.inquiryTypes.propertyViewing')}</SelectItem>
-                      <SelectItem value="investment">{t('contact.form.inquiryTypes.investment')}</SelectItem>
-                      <SelectItem value="consultation">{t('contact.form.inquiryTypes.consultation')}</SelectItem>
-                      <SelectItem value="partnership">{t('contact.form.inquiryTypes.partnership')}</SelectItem>
-                      <SelectItem value="other">{t('contact.form.inquiryTypes.other')}</SelectItem>
-                    </SelectContent>
-                  </Select>
-                  <FormMessage />
-                </FormItem>
-              )}
-            />
-          </div>
-          
+                  <SelectContent>
+                    <SelectItem value="propertyViewing">{t('contact.form.inquiryTypes.propertyViewing')}</SelectItem>
+                    <SelectItem value="investment">{t('contact.form.inquiryTypes.investment')}</SelectItem>
+                    <SelectItem value="consultation">{t('contact.form.inquiryTypes.consultation')}</SelectItem>
+                    <SelectItem value="partnership">{t('contact.form.inquiryTypes.partnership')}</SelectItem>
+                    <SelectItem value="other">{t('contact.form.inquiryTypes.other')}</SelectItem>
+                  </SelectContent>
+                </Select>
+                <FormMessage />
+              </FormItem>
+            )}
+          />
+
           <FormField
             control={form.control}
             name="preferredContact"
@@ -209,7 +192,7 @@ export function ContactForm() {
               </FormItem>
             )}
           />
-          
+
           <FormField
             control={form.control}
             name="message"
@@ -218,19 +201,19 @@ export function ContactForm() {
                 <FormLabel>{t('contact.form.message')}</FormLabel>
                 <FormControl>
                   <Textarea 
-                    placeholder={t('contact.form.messagePlaceholder')} 
+                    placeholder={t('contact.form.messagePlaceholder')}
+                    className="min-h-[120px]" 
                     {...field} 
-                    rows={5}
                   />
                 </FormControl>
                 <FormMessage />
               </FormItem>
             )}
           />
-          
-          <Button 
-            type="submit" 
-            className="w-full bg-luxury-navy hover:bg-luxury-navy/90 text-white" 
+
+          <Button
+            type="submit"
+            className="w-full bg-luxury-gold text-luxury-navy hover:bg-luxury-gold/90"
             disabled={isSubmitting}
           >
             {isSubmitting ? t('contact.form.submitting') : t('contact.form.submit')}
@@ -239,4 +222,4 @@ export function ContactForm() {
       </Form>
     </div>
   );
-}
+};

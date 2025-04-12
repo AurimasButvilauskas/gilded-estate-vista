@@ -1,4 +1,3 @@
-
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -87,19 +86,17 @@ const PersonalConcierge = () => {
     setIsSubmitting(true);
     
     try {
-      // Submit to Supabase consultation_requests table
+      // Submit to Supabase consultation_requests table using customized insert
       const { error } = await supabase
         .from('consultation_requests')
-        .insert([
-          {
-            name: data.name,
-            email: data.email,
-            phone: data.phone,
-            concierge_id: parseInt(data.concierge),
-            requested_date: data.date.toISOString(),
-            status: 'pending'
-          }
-        ]);
+        .insert({
+          name: data.name,
+          email: data.email,
+          phone: data.phone,
+          concierge_id: parseInt(data.concierge),
+          requested_date: data.date.toISOString(),
+          status: 'pending'
+        });
       
       if (error) throw error;
       
