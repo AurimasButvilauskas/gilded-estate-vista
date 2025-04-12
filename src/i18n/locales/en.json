@@ -45,6 +45,246 @@
       "submitButton": "Send Message"
     }
   },
+  "about": {
+    "pageTitle": "About GildedEstate - Luxury Real Estate",
+    "pageDescription": "Learn about GildedEstate's journey in luxury real estate, our values, and the exceptional team behind our success.",
+    "hero": {
+      "title": "Crafting Exceptional Living Experiences",
+      "subtitle": "For over two decades, we've been connecting discerning clients with the world's most extraordinary properties"
+    },
+    "story": {
+      "title": "Our Story",
+      "description": "Founded on the principles of exceptional quality and unparalleled service, GildedEstate has grown from a boutique agency to a global leader in luxury real estate.",
+      "mission": {
+        "title": "Our Mission",
+        "description": "To curate extraordinary living spaces that reflect the unique character and aspirations of our discerning clients, while providing an unmatched level of personalized service throughout the journey."
+      },
+      "vision": {
+        "title": "Our Vision",
+        "description": "To be the definitive authority in luxury real estate, setting new standards of excellence in property curation, client experience, and architectural innovation worldwide."
+      },
+      "milestone1": {
+        "title": "Foundation",
+        "description": "GildedEstate was founded with a vision to revolutionize the luxury real estate market by providing truly personalized service."
+      },
+      "milestone2": {
+        "title": "International Expansion",
+        "description": "Opening our first international offices in Paris, London and New York, establishing our global presence."
+      },
+      "milestone3": {
+        "title": "Innovation in Property Technology",
+        "description": "Pioneering the integration of virtual reality and AI-powered property matching to enhance client experience."
+      },
+      "milestone4": {
+        "title": "Sustainable Luxury Initiative",
+        "description": "Launched our commitment to sustainable luxury, incorporating eco-friendly practices across all properties."
+      },
+      "milestone5": {
+        "title": "Global Recognition",
+        "description": "Recognized as the world's leading luxury real estate company with presence in 15 countries across 5 continents."
+      }
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "description": "Our dedicated team of luxury real estate experts brings together decades of experience and a passion for exceptional properties.",
+      "member1": {
+        "name": "Victoria Richardson",
+        "position": "CEO & Founder",
+        "bio": "With over 25 years in luxury real estate, Victoria has personally overseen the acquisition and development of some of the world's most prestigious properties."
+      },
+      "member2": {
+        "name": "Alexander Laurent",
+        "position": "Chief Investment Officer",
+        "bio": "Alexander's background in finance and real estate investment has helped our clients build impressive property portfolios across global luxury markets."
+      },
+      "member3": {
+        "name": "Sophia Chen",
+        "position": "Head of Architecture",
+        "bio": "An award-winning architect, Sophia ensures that every GildedEstate property meets the highest standards of design excellence and innovation."
+      },
+      "member4": {
+        "name": "Marcus Williams",
+        "position": "Client Relations Director",
+        "bio": "Marcus has a unique talent for understanding clients' needs and connecting them with their perfect property, no matter how specific their requirements."
+      }
+    },
+    "values": {
+      "title": "Our Philosophy & Values",
+      "description": "At the heart of our approach are core values that define how we operate and the experience we deliver to our clients.",
+      "value1": {
+        "title": "Craftsmanship",
+        "description": "We celebrate meticulous attention to detail in every property we represent, ensuring the highest standards of quality and design."
+      },
+      "value2": {
+        "title": "Personalization",
+        "description": "We believe that truly luxury service means tailoring every interaction to the unique preferences and requirements of each client."
+      },
+      "value3": {
+        "title": "Integrity",
+        "description": "We operate with unwavering honesty and transparency, building lifelong relationships based on trust and mutual respect."
+      },
+      "value4": {
+        "title": "Innovation",
+        "description": "We continuously seek new ways to enhance the luxury real estate experience through technology, design, and service."
+      }
+    },
+    "achievements": {
+      "title": "Our Achievements",
+      "description": "Recognition of our commitment to excellence in luxury real estate across the globe.",
+      "stats": {
+        "properties": "Luxury Properties",
+        "satisfaction": "Client Satisfaction",
+        "countries": "Countries",
+        "awards": "Industry Awards"
+      },
+      "awardsTitle": "Industry Recognition",
+      "awards": {
+        "award1": {
+          "name": "International Property Awards",
+          "description": "Best Luxury Real Estate Agency Worldwide - recognizing exceptional service and property portfolio."
+        },
+        "award2": {
+          "name": "Luxury Lifestyle Awards",
+          "description": "Excellence in Luxury Real Estate - for consistently exceeding client expectations in luxury property services."
+        },
+        "award3": {
+          "name": "Architectural Digest",
+          "description": "Innovation in Luxury Property Development - honoring our contribution to architectural excellence."
+        }
+      },
+      "testimonialsTitle": "Client Testimonials",
+      "testimonials": {
+        "testimonial1": {
+          "quote": "Working with GildedEstate to find our dream home was an extraordinary experience. Their attention to detail and understanding of our needs far exceeded our expectations.",
+          "author": "James & Eleanor Harrington",
+          "position": "London, UK"
+        },
+        "testimonial2": {
+          "quote": "The professionalism and discretion shown by the GildedEstate team made acquiring our international property portfolio completely seamless.",
+          "author": "Robert Chen",
+          "position": "Hong Kong"
+        },
+        "testimonial3": {
+          "quote": "After working with several luxury agencies, GildedEstate stands apart. They truly understand that luxury is about personalization and impeccable service.",
+          "author": "Sophia Laurent",
+          "position": "Paris, France"
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Contact GildedEstate - Luxury Real Estate",
+    "pageDescription": "Get in touch with our luxury real estate experts for personalized property consultation and exceptional service.",
+    "title": "Contact Us",
+    "subtitle": "We're here to provide you with exceptional service",
+    "form": {
+      "title": "Send Us a Message",
+      "name": "Name",
+      "namePlaceholder": "Your full name",
+      "email": "Email",
+      "emailPlaceholder": "Your email address",
+      "phone": "Phone",
+      "phonePlaceholder": "Your phone number",
+      "phoneOptional": "Optional, but recommended for prompt response",
+      "inquiryType": "Inquiry Type",
+      "inquiryTypePlaceholder": "Select an inquiry type",
+      "inquiryTypes": {
+        "propertyViewing": "Property Viewing",
+        "investment": "Investment Opportunity",
+        "consultation": "Private Consultation",
+        "partnership": "Business Partnership",
+        "other": "Other Inquiry"
+      },
+      "preferredContact": "Preferred Contact Method",
+      "preferredContactPlaceholder": "Select preferred contact method",
+      "contactMethods": {
+        "email": "Email",
+        "phone": "Phone",
+        "any": "Either"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Tell us more about your inquiry...",
+      "submit": "Send Message",
+      "submitting": "Sending...",
+      "success": "Message Sent",
+      "successMessage": "Thank you for contacting us. A member of our team will be in touch shortly.",
+      "error": "Submission Error",
+      "errorMessage": "There was a problem sending your message. Please try again or contact us directly."
+    },
+    "officeLocation": "Our Office Location",
+    "mainOffice": "GildedEstate Headquarters",
+    "workingHours": {
+      "weekdays": "Monday - Friday: 9:00am - 7:00pm",
+      "weekend": "Saturday: 10:00am - 4:00pm"
+    },
+    "departmentsTitle": "Specialized Departments",
+    "departments": {
+      "sales": {
+        "name": "Luxury Sales"
+      },
+      "customerService": {
+        "name": "Client Services"
+      },
+      "investments": {
+        "name": "Investment Advisory"
+      }
+    },
+    "concierge": {
+      "title": "Personal Concierge Service",
+      "description": "Experience our premium concierge service with dedicated property advisors who provide personalized guidance throughout your luxury real estate journey.",
+      "scheduleButton": "Schedule a Consultation",
+      "member1": {
+        "name": "Alexander Laurent",
+        "position": "Senior Property Advisor",
+        "expertise": "Specializing in ultra-luxury residential properties and investment opportunities in major European markets."
+      },
+      "member2": {
+        "name": "Sophia Chen",
+        "position": "Architectural Consultant",
+        "expertise": "Expert in architectural assessment, property renovation guidance, and custom design solutions for discerning clients."
+      },
+      "form": {
+        "title": "Schedule Your Consultation",
+        "description": "Complete the form below to arrange a personalized consultation with one of our luxury property experts.",
+        "name": "Full Name",
+        "namePlaceholder": "Your full name",
+        "email": "Email Address",
+        "emailPlaceholder": "Your email address",
+        "phone": "Phone Number",
+        "phonePlaceholder": "Your phone number",
+        "date": "Preferred Date",
+        "datePlaceholder": "Select a date",
+        "concierge": "Select Advisor",
+        "conciergePlaceholder": "Choose your preferred advisor",
+        "submit": "Confirm Appointment",
+        "submitting": "Scheduling...",
+        "cancel": "Cancel",
+        "success": "Consultation Scheduled",
+        "successMessage": "Your consultation has been confirmed. You will receive confirmation details via email shortly.",
+        "error": "Scheduling Error",
+        "errorMessage": "There was a problem scheduling your consultation. Please try again or contact us directly."
+      },
+      "guarantee": {
+        "title": "Our Private Client Guarantee",
+        "description": "When you work with our concierge service, you receive our exclusive attention and commitment to meeting your real estate objectives.",
+        "point1": "24/7 Availability",
+        "point2": "Absolute Discretion"
+      }
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "question1": "What areas do you specialize in for luxury properties?",
+      "answer1": "We specialize in premium real estate across major global luxury markets including London, Paris, New York, Hong Kong, Dubai, and many other exclusive locations. Our portfolio includes urban penthouses, waterfront estates, historic properties, and private islands.",
+      "question2": "How does your property acquisition process work?",
+      "answer2": "Our process begins with a detailed consultation to understand your specific requirements. We then curate a selection of properties that match your criteria, often including off-market listings exclusive to our network. We handle all aspects of the transaction, from arranging viewings to final negotiations and closing, providing a seamless experience.",
+      "question3": "Do you offer services for international buyers?",
+      "answer3": "Yes, we have extensive experience working with international clients and offer specialized services including virtual tours, legal guidance on foreign ownership, tax efficiency strategies, and relocation support. Our multilingual team ensures clear communication throughout the process.",
+      "question4": "What investment advisory services do you provide?",
+      "answer4": "Our investment advisory team provides comprehensive market analysis, portfolio diversification strategies, yield optimization, and long-term investment planning. We identify emerging luxury markets and exclusive opportunities before they become widely available.",
+      "question5": "Can you assist with property management after purchase?",
+      "answer5": "Absolutely. We offer comprehensive property management services including maintenance, security, staff recruitment, rental management, and seasonal preparation for second homes. Our concierge service can also arrange everything from interior design to home technology integration."
+    }
+  },
   "properties": {
     "search": "Search properties",
     "filters": {
@@ -67,22 +307,6 @@
     "squareFeet": "Square Feet",
     "contactAgent": "Contact Agent",
     "schedule": "Schedule a Viewing"
-  },
-  "contact": {
-    "title": "Contact Us",
-    "subtitle": "We'd love to hear from you",
-    "form": {
-      "name": "Name",
-      "email": "Email",
-      "phone": "Phone (optional)",
-      "message": "Message",
-      "submit": "Send Message",
-      "success": "Message sent successfully!",
-      "error": "There was an error sending your message."
-    },
-    "officeLocation": "Office Location",
-    "phoneNumber": "Phone Number",
-    "emailAddress": "Email Address"
   },
   "auth": {
     "signIn": {

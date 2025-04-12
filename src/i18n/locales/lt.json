@@ -45,6 +45,246 @@
       "submitButton": "Siųsti žinutę"
     }
   },
+  "about": {
+    "pageTitle": "Apie GildedEstate - Prabangus nekilnojamasis turtas",
+    "pageDescription": "Sužinokite apie GildedEstate kelionę prabangaus nekilnojamojo turto srityje, mūsų vertybes ir išskirtinę komandą, stovinčią už mūsų sėkmės.",
+    "hero": {
+      "title": "Kuriame išskirtinius gyvenimo potyrius",
+      "subtitle": "Jau daugiau nei du dešimtmečius siejame reiklius klientus su ypatingiausiais pasaulio nekilnojamojo turto objektais"
+    },
+    "story": {
+      "title": "Mūsų istorija",
+      "description": "Įkurta remiantis išskirtinės kokybės ir neprilygstamo aptarnavimo principais, GildedEstate išaugo iš butikinio agentūros į pasaulinį lyderį prabangaus nekilnojamojo turto srityje.",
+      "mission": {
+        "title": "Mūsų misija",
+        "description": "Kurti ypatingas gyvenamąsias erdves, atspindinčias unikalų mūsų reiklių klientų charakterį ir siekius, kartu teikiant neprilygstamą personalizuotą aptarnavimą visos kelionės metu."
+      },
+      "vision": {
+        "title": "Mūsų vizija",
+        "description": "Būti neginčijamu autoritetu prabangaus nekilnojamojo turto srityje, nustatant naujus tobulumo standartus nekilnojamojo turto kuravime, klientų patirtyje ir architektūrinėse inovacijose visame pasaulyje."
+      },
+      "milestone1": {
+        "title": "Įkūrimas",
+        "description": "GildedEstate buvo įkurta su vizija revoliucionizuoti prabangaus nekilnojamojo turto rinką, teikiant tikrai personalizuotą aptarnavimą."
+      },
+      "milestone2": {
+        "title": "Tarptautinė plėtra",
+        "description": "Atidarėme pirmuosius tarptautinius biurus Paryžiuje, Londone ir Niujorke, įtvirtindami savo pasaulinį buvimą."
+      },
+      "milestone3": {
+        "title": "Inovacijos nekilnojamojo turto technologijose",
+        "description": "Pradėjome integruoti virtualią realybę ir dirbtinio intelekto valdomą nekilnojamojo turto derinimą, siekdami pagerinti klientų patirtį."
+      },
+      "milestone4": {
+        "title": "Tvarios prabangos iniciatyva",
+        "description": "Pradėjome įsipareigojimą tvariai prabangai, įtraukdami aplinkai draugišką praktiką visuose nekilnojamojo turto objektuose."
+      },
+      "milestone5": {
+        "title": "Pasaulinis pripažinimas",
+        "description": "Pripažinta kaip pasaulio lyderiaujanti prabangaus nekilnojamojo turto įmonė, turinti atstovybes 15 šalių 5 žemynuose."
+      }
+    },
+    "team": {
+      "title": "Susipažinkite su mūsų komanda",
+      "description": "Mūsų atsidavusi prabangaus nekilnojamojo turto ekspertų komanda suburia dešimtmečių patirtį ir aistrą išskirtiniams nekilnojamojo turto objektams.",
+      "member1": {
+        "name": "Victoria Richardson",
+        "position": "Generalinė direktorė ir įkūrėja",
+        "bio": "Turėdama daugiau nei 25 metų patirtį prabangaus nekilnojamojo turto srityje, Victoria asmeniškai prižiūrėjo kai kurių prestižiškiausių pasaulio nekilnojamojo turto objektų įsigijimą ir vystymą."
+      },
+      "member2": {
+        "name": "Alexander Laurent",
+        "position": "Vyriausiasis investicijų direktorius",
+        "bio": "Alexanderio patirtis finansų ir nekilnojamojo turto investicijų srityje padėjo mūsų klientams sukurti įspūdingus nekilnojamojo turto portfelius pasaulinėse prabangos rinkose."
+      },
+      "member3": {
+        "name": "Sophia Chen",
+        "position": "Architektūros vadovė",
+        "bio": "Apdovanojimus pelniusi architektė Sophia užtikrina, kad kiekvienas GildedEstate nekilnojamojo turto objektas atitiktų aukščiausius dizaino tobulumo ir inovacijų standartus."
+      },
+      "member4": {
+        "name": "Marcus Williams",
+        "position": "Klientų santykių direktorius",
+        "bio": "Marcus turi unikalų talentą suprasti klientų poreikius ir sujungti juos su tobulu nekilnojamuoju turtu, nepriklausomai nuo jų specifinių reikalavimų."
+      }
+    },
+    "values": {
+      "title": "Mūsų filosofija ir vertybės",
+      "description": "Mūsų požiūrio esmė yra pagrindinės vertybės, kurios apibrėžia, kaip mes veikiame ir kokią patirtį teikiame savo klientams.",
+      "value1": {
+        "title": "Meistriškumas",
+        "description": "Mes švenčiame kruopštų dėmesį detalėms kiekviename mūsų atstovaujamame nekilnojamojo turto objekte, užtikrindami aukščiausius kokybės ir dizaino standartus."
+      },
+      "value2": {
+        "title": "Personalizavimas",
+        "description": "Mes tikime, kad tikrai prabangus aptarnavimas reiškia kiekvienos sąveikos pritaikymą unikaliems kiekvieno kliento pageidavimams ir reikalavimams."
+      },
+      "value3": {
+        "title": "Sąžiningumas",
+        "description": "Mes veikiame su nepajudinamu sąžiningumu ir skaidrumu, kurdami ilgalaikius santykius, pagrįstus pasitikėjimu ir abipuse pagarba."
+      },
+      "value4": {
+        "title": "Inovacijos",
+        "description": "Mes nuolat ieškome naujų būdų, kaip pagerinti prabangaus nekilnojamojo turto patirtį per technologijas, dizainą ir aptarnavimą."
+      }
+    },
+    "achievements": {
+      "title": "Mūsų pasiekimai",
+      "description": "Mūsų įsipareigojimo tobulumui prabangaus nekilnojamojo turto srityje visame pasaulyje pripažinimas.",
+      "stats": {
+        "properties": "Prabangūs objektai",
+        "satisfaction": "Klientų pasitenkinimas",
+        "countries": "Šalys",
+        "awards": "Industrijos apdovanojimai"
+      },
+      "awardsTitle": "Industrijos pripažinimas",
+      "awards": {
+        "award1": {
+          "name": "Tarptautiniai nekilnojamojo turto apdovanojimai",
+          "description": "Geriausia prabangaus nekilnojamojo turto agentūra pasaulyje - pripažįstant išskirtinį aptarnavimą ir nekilnojamojo turto portfelį."
+        },
+        "award2": {
+          "name": "Prabangaus gyvenimo būdo apdovanojimai",
+          "description": "Tobulumo prabangaus nekilnojamojo turto srityje - už nuolatinį klientų lūkesčių viršijimą prabangaus nekilnojamojo turto paslaugose."
+        },
+        "award3": {
+          "name": "Architectural Digest",
+          "description": "Inovacijos prabangaus nekilnojamojo turto vystyme - pagerbiant mūsų indėlį į architektūrinį tobulumą."
+        }
+      },
+      "testimonialsTitle": "Klientų atsiliepimai",
+      "testimonials": {
+        "testimonial1": {
+          "quote": "Darbas su GildedEstate ieškant mūsų svajonių namų buvo neeilinė patirtis. Jų dėmesys detalėms ir mūsų poreikių supratimas gerokai viršijo mūsų lūkesčius.",
+          "author": "James ir Eleanor Harrington",
+          "position": "Londonas, Jungtinė Karalystė"
+        },
+        "testimonial2": {
+          "quote": "GildedEstate komandos parodyta profesionali ir diskretiška veikla padarė mūsų tarptautinio nekilnojamojo turto portfelio įsigijimą visiškai sklandų.",
+          "author": "Robert Chen",
+          "position": "Honkongas"
+        },
+        "testimonial3": {
+          "quote": "Po darbo su keliomis prabangos agentūromis, GildedEstate išsiskiria. Jie tikrai supranta, kad prabanga yra apie personalizavimą ir nepriekaištingą aptarnavimą.",
+          "author": "Sophia Laurent",
+          "position": "Paryžius, Prancūzija"
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Susisiekite su GildedEstate - Prabangus nekilnojamasis turtas",
+    "pageDescription": "Susisiekite su mūsų prabangaus nekilnojamojo turto ekspertais dėl individualios nekilnojamojo turto konsultacijos ir išskirtinio aptarnavimo.",
+    "title": "Susisiekite su mumis",
+    "subtitle": "Esame čia, kad suteiktume jums išskirtinį aptarnavimą",
+    "form": {
+      "title": "Siųskite mums žinutę",
+      "name": "Vardas",
+      "namePlaceholder": "Jūsų pilnas vardas",
+      "email": "El. paštas",
+      "emailPlaceholder": "Jūsų el. pašto adresas",
+      "phone": "Telefonas",
+      "phonePlaceholder": "Jūsų telefono numeris",
+      "phoneOptional": "Neprivalomas, bet rekomenduojamas greitam atsakymui",
+      "inquiryType": "Užklausos tipas",
+      "inquiryTypePlaceholder": "Pasirinkite užklausos tipą",
+      "inquiryTypes": {
+        "propertyViewing": "Nekilnojamojo turto apžiūra",
+        "investment": "Investicinė galimybė",
+        "consultation": "Privati konsultacija",
+        "partnership": "Verslo partnerystė",
+        "other": "Kita užklausa"
+      },
+      "preferredContact": "Pageidaujamas kontakto būdas",
+      "preferredContactPlaceholder": "Pasirinkite pageidaujamą kontakto būdą",
+      "contactMethods": {
+        "email": "El. paštas",
+        "phone": "Telefonas",
+        "any": "Bet kuris"
+      },
+      "message": "Žinutė",
+      "messagePlaceholder": "Papasakokite daugiau apie savo užklausą...",
+      "submit": "Siųsti žinutę",
+      "submitting": "Siunčiama...",
+      "success": "Žinutė išsiųsta",
+      "successMessage": "Dėkojame, kad susisiekėte su mumis. Mūsų komandos narys netrukus su jumis susisieks.",
+      "error": "Pateikimo klaida",
+      "errorMessage": "Kilo problema siunčiant jūsų žinutę. Bandykite dar kartą arba susisiekite su mumis tiesiogiai."
+    },
+    "officeLocation": "Mūsų biuro vieta",
+    "mainOffice": "GildedEstate Centrinė būstinė",
+    "workingHours": {
+      "weekdays": "Pirmadienis - Penktadienis: 9:00 - 19:00",
+      "weekend": "Šeštadienis: 10:00 - 16:00"
+    },
+    "departmentsTitle": "Specializuoti skyriai",
+    "departments": {
+      "sales": {
+        "name": "Prabangaus NT pardavimai"
+      },
+      "customerService": {
+        "name": "Klientų aptarnavimas"
+      },
+      "investments": {
+        "name": "Investicijų konsultacijos"
+      }
+    },
+    "concierge": {
+      "title": "Asmeninio konsjeržo paslauga",
+      "description": "Patirkite mūsų premium konsjeržo paslaugas su atsidavusiais nekilnojamojo turto patarėjais, kurie teikia individualizuotą pagalbą per visą jūsų prabangaus nekilnojamojo turto kelionę.",
+      "scheduleButton": "Suplanuoti konsultaciją",
+      "member1": {
+        "name": "Alexander Laurent",
+        "position": "Vyresnysis nekilnojamojo turto patarėjas",
+        "expertise": "Specializuojasi ypač prabangių gyvenamųjų nekilnojamojo turto objektų ir investicinių galimybių pagrindinėse Europos rinkose srityje."
+      },
+      "member2": {
+        "name": "Sophia Chen",
+        "position": "Architektūrinė konsultantė",
+        "expertise": "Ekspertė architektūrinio vertinimo, nekilnojamojo turto renovacijos gairių ir individualių dizaino sprendimų reikliems klientams srityje."
+      },
+      "form": {
+        "title": "Suplanuokite konsultaciją",
+        "description": "Užpildykite žemiau esančią formą, kad suorganizuotumėte individualizuotą konsultaciją su vienu iš mūsų prabangaus nekilnojamojo turto ekspertų.",
+        "name": "Pilnas vardas",
+        "namePlaceholder": "Jūsų pilnas vardas",
+        "email": "El. pašto adresas",
+        "emailPlaceholder": "Jūsų el. pašto adresas",
+        "phone": "Telefono numeris",
+        "phonePlaceholder": "Jūsų telefono numeris",
+        "date": "Pageidaujama data",
+        "datePlaceholder": "Pasirinkite datą",
+        "concierge": "Pasirinkite patarėją",
+        "conciergePlaceholder": "Pasirinkite savo pageidaujamą patarėją",
+        "submit": "Patvirtinti susitikimą",
+        "submitting": "Planuojama...",
+        "cancel": "Atšaukti",
+        "success": "Konsultacija suplanuota",
+        "successMessage": "Jūsų konsultacija patvirtinta. Netrukus el. paštu gausite patvirtinimo detales.",
+        "error": "Planavimo klaida",
+        "errorMessage": "Kilo problema planuojant jūsų konsultaciją. Bandykite dar kartą arba susisiekite su mumis tiesiogiai."
+      },
+      "guarantee": {
+        "title": "Mūsų privačių klientų garantija",
+        "description": "Kai dirbate su mūsų konsjeržo paslauga, gaunate mūsų išskirtinį dėmesį ir įsipareigojimą patenkinti jūsų nekilnojamojo turto tikslus.",
+        "point1": "24/7 Prieinamumas",
+        "point2": "Absoliutus diskretumas"
+      }
+    },
+    "faq": {
+      "title": "Dažnai užduodami klausimai",
+      "question1": "Kokiose srityse specializuojatės prabangaus nekilnojamojo turto srityje?",
+      "answer1": "Mes specializuojamės premium nekilnojamajame turte pagrindinėse pasaulinėse prabangos rinkose, įskaitant Londoną, Paryžių, Niujorką, Honkongą, Dubajų ir daugelį kitų išskirtinių vietų. Mūsų portfelyje yra miesto penthauzai, pakrantės dvarai, istoriniai objektai ir privačios salos.",
+      "question2": "Kaip veikia jūsų nekilnojamojo turto įsigijimo procesas?",
+      "answer2": "Mūsų procesas prasideda nuo išsamios konsultacijos, siekiant suprasti jūsų konkrečius reikalavimus. Tada mes kuruojame nekilnojamojo turto objektų pasirinkimą, kuris atitinka jūsų kriterijus, dažnai įtraukiant ne rinkos sąrašus, kurie yra išskirtiniai mūsų tinklui. Mes tvarkome visus sandorio aspektus, nuo apžiūrų organizavimo iki galutinių derybų ir uždarymo, užtikrindami sklandžią patirtį.",
+      "question3": "Ar siūlote paslaugas tarptautiniams pirkėjams?",
+      "answer3": "Taip, mes turime didelę patirtį dirbant su tarptautiniais klientais ir siūlome specializuotas paslaugas, įskaitant virtualias ekskursijas, teisinį vadovavimą dėl užsienio nuosavybės, mokesčių efektyvumo strategijas ir perkėlimo pagalbą. Mūsų daugiakalbė komanda užtikrina aiškų bendravimą per visą procesą.",
+      "question4": "Kokias investicijų konsultavimo paslaugas teikiate?",
+      "answer4": "Mūsų investicijų konsultavimo komanda teikia išsamią rinkos analizę, portfelio diversifikavimo strategijas, pajamų optimizavimą ir ilgalaikio investavimo planavimą. Mes identifikuojame besiformuojančias prabangias rinkas ir išskirtines galimybes prieš joms tampant plačiai prieinamoms.",
+      "question5": "Ar galite padėti su nekilnojamojo turto valdymu po įsigijimo?",
+      "answer5": "Absoliučiai. Mes siūlome išsamias nekilnojamojo turto valdymo paslaugas, įskaitant priežiūrą, saugumą, personalo įdarbinimą, nuomos valdymą ir sezoninį antrųjų namų paruošimą. Mūsų konsjeržo paslauga taip pat gali sutvarkyti viską nuo interjero dizaino iki namų technologijų integracijos."
+    }
+  },
   "properties": {
     "search": "Ieškoti nekilnojamo turto",
     "filters": {
@@ -67,22 +307,6 @@
     "squareFeet": "Kvadratiniai metrai",
     "contactAgent": "Susisiekti su agentu",
     "schedule": "Suplanuoti apžiūrą"
-  },
-  "contact": {
-    "title": "Susisiekite su mumis",
-    "subtitle": "Mielai išklausysime jus",
-    "form": {
-      "name": "Vardas",
-      "email": "El. paštas",
-      "phone": "Telefonas (neprivalomas)",
-      "message": "Žinutė",
-      "submit": "Siųsti žinutę",
-      "success": "Žinutė sėkmingai išsiųsta!",
-      "error": "Įvyko klaida siunčiant jūsų žinutę."
-    },
-    "officeLocation": "Biuro vieta",
-    "phoneNumber": "Telefono numeris",
-    "emailAddress": "El. pašto adresas"
   },
   "auth": {
     "signIn": {

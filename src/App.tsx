@@ -8,6 +8,8 @@ import Index from "./pages/Index";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import Contact from "./pages/Contact";
+import ContactPage from "./pages/ContactPage";
+import About from "./pages/About";
 import Properties from "./pages/Properties";
 import PropertyDetail from "./pages/PropertyDetail";
 import NotFound from "./pages/NotFound";
@@ -29,7 +31,8 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/signin" element={<SignIn />} />
             <Route path="/signup" element={<SignUp />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/contact" element={<ContactPage />} />
+            <Route path="/about" element={<About />} />
             <Route path="/properties" element={<Properties />} />
             <Route path="/properties/:id" element={<PropertyDetail />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}

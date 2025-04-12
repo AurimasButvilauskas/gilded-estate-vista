@@ -45,6 +45,246 @@
       "submitButton": "Envoyer le message"
     }
   },
+  "about": {
+    "pageTitle": "À propos de GildedEstate - Immobilier de luxe",
+    "pageDescription": "Découvrez le parcours de GildedEstate dans l'immobilier de luxe, nos valeurs et l'équipe exceptionnelle derrière notre succès.",
+    "hero": {
+      "title": "Création d'expériences de vie exceptionnelles",
+      "subtitle": "Depuis plus de deux décennies, nous connectons des clients exigeants avec les propriétés les plus extraordinaires du monde"
+    },
+    "story": {
+      "title": "Notre histoire",
+      "description": "Fondée sur les principes de qualité exceptionnelle et de service inégalé, GildedEstate est passée d'une agence boutique à un leader mondial de l'immobilier de luxe.",
+      "mission": {
+        "title": "Notre mission",
+        "description": "Organiser des espaces de vie extraordinaires qui reflètent le caractère unique et les aspirations de nos clients exigeants, tout en fournissant un niveau inégalé de service personnalisé tout au long du parcours."
+      },
+      "vision": {
+        "title": "Notre vision",
+        "description": "Être l'autorité définitive en matière d'immobilier de luxe, en établissant de nouvelles normes d'excellence dans la curation immobilière, l'expérience client et l'innovation architecturale dans le monde entier."
+      },
+      "milestone1": {
+        "title": "Fondation",
+        "description": "GildedEstate a été fondée avec la vision de révolutionner le marché de l'immobilier de luxe en offrant un service véritablement personnalisé."
+      },
+      "milestone2": {
+        "title": "Expansion internationale",
+        "description": "Ouverture de nos premiers bureaux internationaux à Paris, Londres et New York, établissant notre présence mondiale."
+      },
+      "milestone3": {
+        "title": "Innovation dans la technologie immobilière",
+        "description": "Pionnier dans l'intégration de la réalité virtuelle et de la correspondance immobilière alimentée par l'IA pour améliorer l'expérience client."
+      },
+      "milestone4": {
+        "title": "Initiative de luxe durable",
+        "description": "Lancement de notre engagement pour le luxe durable, intégrant des pratiques écologiques dans toutes les propriétés."
+      },
+      "milestone5": {
+        "title": "Reconnaissance mondiale",
+        "description": "Reconnue comme la principale société immobilière de luxe au monde avec une présence dans 15 pays sur 5 continents."
+      }
+    },
+    "team": {
+      "title": "Rencontrez notre équipe",
+      "description": "Notre équipe dévouée d'experts en immobilier de luxe réunit des décennies d'expérience et une passion pour les propriétés exceptionnelles.",
+      "member1": {
+        "name": "Victoria Richardson",
+        "position": "PDG et fondatrice",
+        "bio": "Avec plus de 25 ans dans l'immobilier de luxe, Victoria a personnellement supervisé l'acquisition et le développement de certaines des propriétés les plus prestigieuses du monde."
+      },
+      "member2": {
+        "name": "Alexander Laurent",
+        "position": "Directeur des investissements",
+        "bio": "L'expérience d'Alexander dans la finance et les investissements immobiliers a aidé nos clients à construire des portefeuilles immobiliers impressionnants sur les marchés de luxe mondiaux."
+      },
+      "member3": {
+        "name": "Sophia Chen",
+        "position": "Responsable de l'architecture",
+        "bio": "Architecte primée, Sophia s'assure que chaque propriété GildedEstate répond aux normes les plus élevées d'excellence et d'innovation en matière de design."
+      },
+      "member4": {
+        "name": "Marcus Williams",
+        "position": "Directeur des relations clients",
+        "bio": "Marcus a un talent unique pour comprendre les besoins des clients et les connecter avec leur propriété parfaite, quelles que soient leurs exigences spécifiques."
+      }
+    },
+    "values": {
+      "title": "Notre philosophie et nos valeurs",
+      "description": "Au cœur de notre approche se trouvent des valeurs fondamentales qui définissent notre façon de travailler et l'expérience que nous offrons à nos clients.",
+      "value1": {
+        "title": "Artisanat",
+        "description": "Nous célébrons l'attention méticuleuse aux détails dans chaque propriété que nous représentons, assurant les normes les plus élevées de qualité et de design."
+      },
+      "value2": {
+        "title": "Personnalisation",
+        "description": "Nous croyons que le véritable service de luxe signifie adapter chaque interaction aux préférences et exigences uniques de chaque client."
+      },
+      "value3": {
+        "title": "Intégrité",
+        "description": "Nous opérons avec une honnêteté et une transparence inébranlables, construisant des relations durables basées sur la confiance et le respect mutuel."
+      },
+      "value4": {
+        "title": "Innovation",
+        "description": "Nous recherchons continuellement de nouvelles façons d'améliorer l'expérience immobilière de luxe grâce à la technologie, au design et au service."
+      }
+    },
+    "achievements": {
+      "title": "Nos réalisations",
+      "description": "Reconnaissance de notre engagement envers l'excellence dans l'immobilier de luxe à travers le monde.",
+      "stats": {
+        "properties": "Propriétés de luxe",
+        "satisfaction": "Satisfaction client",
+        "countries": "Pays",
+        "awards": "Prix de l'industrie"
+      },
+      "awardsTitle": "Reconnaissance de l'industrie",
+      "awards": {
+        "award1": {
+          "name": "International Property Awards",
+          "description": "Meilleure agence immobilière de luxe mondiale - reconnaissant un service exceptionnel et un portfolio immobilier."
+        },
+        "award2": {
+          "name": "Luxury Lifestyle Awards",
+          "description": "Excellence dans l'immobilier de luxe - pour avoir constamment dépassé les attentes des clients dans les services immobiliers de luxe."
+        },
+        "award3": {
+          "name": "Architectural Digest",
+          "description": "Innovation dans le développement immobilier de luxe - honorant notre contribution à l'excellence architecturale."
+        }
+      },
+      "testimonialsTitle": "Témoignages clients",
+      "testimonials": {
+        "testimonial1": {
+          "quote": "Travailler avec GildedEstate pour trouver notre maison de rêve a été une expérience extraordinaire. Leur attention aux détails et la compréhension de nos besoins ont largement dépassé nos attentes.",
+          "author": "James & Eleanor Harrington",
+          "position": "Londres, Royaume-Uni"
+        },
+        "testimonial2": {
+          "quote": "Le professionnalisme et la discrétion montrés par l'équipe GildedEstate ont rendu l'acquisition de notre portefeuille immobilier international complètement transparente.",
+          "author": "Robert Chen",
+          "position": "Hong Kong"
+        },
+        "testimonial3": {
+          "quote": "Après avoir travaillé avec plusieurs agences de luxe, GildedEstate se démarque. Ils comprennent vraiment que le luxe concerne la personnalisation et un service impeccable.",
+          "author": "Sophia Laurent",
+          "position": "Paris, France"
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Contact GildedEstate - Immobilier de luxe",
+    "pageDescription": "Entrez en contact avec nos experts en immobilier de luxe pour une consultation immobilière personnalisée et un service exceptionnel.",
+    "title": "Contactez-nous",
+    "subtitle": "Nous sommes là pour vous offrir un service exceptionnel",
+    "form": {
+      "title": "Envoyez-nous un message",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom complet",
+      "email": "Email",
+      "emailPlaceholder": "Votre adresse email",
+      "phone": "Téléphone",
+      "phonePlaceholder": "Votre numéro de téléphone",
+      "phoneOptional": "Optionnel, mais recommandé pour une réponse rapide",
+      "inquiryType": "Type de demande",
+      "inquiryTypePlaceholder": "Sél. un type de demande",
+      "inquiryTypes": {
+        "propertyViewing": "Visite de propriété",
+        "investment": "Opportunité d'investissement",
+        "consultation": "Consultation privée",
+        "partnership": "Partenariat commercial",
+        "other": "Autre demande"
+      },
+      "preferredContact": "Méthode de contact préférée",
+      "preferredContactPlaceholder": "Sél. méthode préférée",
+      "contactMethods": {
+        "email": "Email",
+        "phone": "Téléphone",
+        "any": "Indifférent"
+      },
+      "message": "Message",
+      "messagePlaceholder": "Parlez-nous de votre demande...",
+      "submit": "Envoyer le message",
+      "submitting": "Envoi en cours...",
+      "success": "Message envoyé",
+      "successMessage": "Merci de nous avoir contactés. Un membre de notre équipe vous contactera sous peu.",
+      "error": "Erreur d'envoi",
+      "errorMessage": "Un problème est survenu lors de l'envoi de votre message. Veuillez réessayer ou nous contacter directement."
+    },
+    "officeLocation": "Notre emplacement",
+    "mainOffice": "Siège de GildedEstate",
+    "workingHours": {
+      "weekdays": "Lundi - Vendredi: 9h00 - 19h00",
+      "weekend": "Samedi: 10h00 - 16h00"
+    },
+    "departmentsTitle": "Départements spécialisés",
+    "departments": {
+      "sales": {
+        "name": "Ventes de luxe"
+      },
+      "customerService": {
+        "name": "Service client"
+      },
+      "investments": {
+        "name": "Conseil en investissement"
+      }
+    },
+    "concierge": {
+      "title": "Service de conciergerie personnelle",
+      "description": "Découvrez notre service de conciergerie premium avec des conseillers immobiliers dévoués qui fournissent des conseils personnalisés tout au long de votre parcours immobilier de luxe.",
+      "scheduleButton": "Planifier une consultation",
+      "member1": {
+        "name": "Alexander Laurent",
+        "position": "Conseiller immobilier senior",
+        "expertise": "Spécialisé dans les propriétés résidentielles ultra-luxe et les opportunités d'investissement sur les principaux marchés européens."
+      },
+      "member2": {
+        "name": "Sophia Chen",
+        "position": "Consultante en architecture",
+        "expertise": "Experte en évaluation architecturale, conseils en rénovation immobilière et solutions de design sur mesure pour clients exigeants."
+      },
+      "form": {
+        "title": "Planifiez votre consultation",
+        "description": "Complétez le formulaire ci-dessous pour organiser une consultation personnalisée avec l'un de nos experts en immobilier de luxe.",
+        "name": "Nom complet",
+        "namePlaceholder": "Votre nom complet",
+        "email": "Adresse email",
+        "emailPlaceholder": "Votre adresse email",
+        "phone": "Numéro de téléphone",
+        "phonePlaceholder": "Votre numéro de téléphone",
+        "date": "Date préférée",
+        "datePlaceholder": "Sélectionner une date",
+        "concierge": "Sélectionner un conseiller",
+        "conciergePlaceholder": "Choisir votre conseiller préféré",
+        "submit": "Confirmer le rendez-vous",
+        "submitting": "Planification...",
+        "cancel": "Annuler",
+        "success": "Consultation planifiée",
+        "successMessage": "Votre consultation a été confirmée. Vous recevrez bientôt les détails de confirmation par email.",
+        "error": "Erreur de planification",
+        "errorMessage": "Un problème est survenu lors de la planification de votre consultation. Veuillez réessayer ou nous contacter directement."
+      },
+      "guarantee": {
+        "title": "Notre garantie client privé",
+        "description": "Lorsque vous travaillez avec notre service de conciergerie, vous recevez notre attention exclusive et notre engagement à répondre à vos objectifs immobiliers.",
+        "point1": "Disponibilité 24/7",
+        "point2": "Discrétion absolue"
+      }
+    },
+    "faq": {
+      "title": "Questions fréquemment posées",
+      "question1": "Dans quelles zones vous spécialisez-vous pour les propriétés de luxe?",
+      "answer1": "Nous nous spécialisons dans l'immobilier haut de gamme sur les principaux marchés de luxe mondiaux, notamment Londres, Paris, New York, Hong Kong, Dubaï et de nombreux autres lieux exclusifs. Notre portefeuille comprend des penthouses urbains, des domaines au bord de l'eau, des propriétés historiques et des îles privées.",
+      "question2": "Comment fonctionne votre processus d'acquisition de propriété?",
+      "answer2": "Notre processus commence par une consultation détaillée pour comprendre vos exigences spécifiques. Nous organisons ensuite une sélection de propriétés qui correspondent à vos critères, incluant souvent des annonces hors marché exclusives à notre réseau. Nous gérons tous les aspects de la transaction, de l'organisation des visites aux négociations finales et à la clôture, offrant une expérience parfaite.",
+      "question3": "Offrez-vous des services pour les acheteurs internationaux?",
+      "answer3": "Oui, nous avons une vaste expérience avec les clients internationaux et offrons des services spécialisés comprenant des visites virtuelles, des conseils juridiques sur la propriété étrangère, des stratégies d'efficacité fiscale et un soutien à la relocalisation. Notre équipe multilingue assure une communication claire tout au long du processus.",
+      "question4": "Quels services de conseil en investissement proposez-vous?",
+      "answer4": "Notre équipe de conseil en investissement fournit une analyse complète du marché, des stratégies de diversification de portefeuille, une optimisation du rendement et une planification d'investissement à long terme. Nous identifions les marchés de luxe émergents et les opportunités exclusives avant qu'elles ne deviennent largement disponibles.",
+      "question5": "Pouvez-vous aider à la gestion immobilière après l'achat?",
+      "answer5": "Absolument. Nous offrons des services complets de gestion immobilière comprenant l'entretien, la sécurité, le recrutement du personnel, la gestion locative et la préparation saisonnière pour les résidences secondaires. Notre service de conciergerie peut également organiser tout, de la décoration intérieure à l'intégration de la technologie domestique."
+    }
+  },
   "properties": {
     "search": "Rechercher des propriétés",
     "filters": {
@@ -67,22 +307,6 @@
     "squareFeet": "Mètres carrés",
     "contactAgent": "Contacter l'agent",
     "schedule": "Planifier une visite"
-  },
-  "contact": {
-    "title": "Contactez-nous",
-    "subtitle": "Nous aimerions vous entendre",
-    "form": {
-      "name": "Nom",
-      "email": "Email",
-      "phone": "Téléphone (facultatif)",
-      "message": "Message",
-      "submit": "Envoyer le message",
-      "success": "Message envoyé avec succès !",
-      "error": "Une erreur s'est produite lors de l'envoi de votre message."
-    },
-    "officeLocation": "Emplacement du bureau",
-    "phoneNumber": "Numéro de téléphone",
-    "emailAddress": "Adresse email"
   },
   "auth": {
     "signIn": {

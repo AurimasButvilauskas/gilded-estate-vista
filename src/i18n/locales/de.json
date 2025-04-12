@@ -45,6 +45,246 @@
       "submitButton": "Nachricht senden"
     }
   },
+  "about": {
+    "pageTitle": "Über GildedEstate - Luxusimmobilien",
+    "pageDescription": "Erfahren Sie mehr über GildedEstates Weg im Bereich der Luxusimmobilien, unsere Werte und das außergewöhnliche Team hinter unserem Erfolg.",
+    "hero": {
+      "title": "Wir gestalten außergewöhnliche Wohnerlebnisse",
+      "subtitle": "Seit über zwei Jahrzehnten verbinden wir anspruchsvolle Kunden mit den außergewöhnlichsten Immobilien der Welt"
+    },
+    "story": {
+      "title": "Unsere Geschichte",
+      "description": "Gegründet auf den Prinzipien außergewöhnlicher Qualität und unübertroffenen Service, hat sich GildedEstate von einer Boutique-Agentur zu einem globalen Marktführer im Bereich Luxusimmobilien entwickelt.",
+      "mission": {
+        "title": "Unsere Mission",
+        "description": "Außergewöhnliche Wohnräume zu kuratieren, die den einzigartigen Charakter und die Ambitionen unserer anspruchsvollen Kunden widerspiegeln, während wir ein unvergleichliches Maß an personalisierten Service während der gesamten Reise bieten."
+      },
+      "vision": {
+        "title": "Unsere Vision",
+        "description": "Die maßgebliche Autorität für Luxusimmobilien zu sein und neue Maßstäbe für Exzellenz in der Immobilienkuration, Kundenerfahrung und architektonischen Innovation weltweit zu setzen."
+      },
+      "milestone1": {
+        "title": "Gründung",
+        "description": "GildedEstate wurde mit der Vision gegründet, den Luxusimmobilienmarkt durch wirklich personalisierten Service zu revolutionieren."
+      },
+      "milestone2": {
+        "title": "Internationale Expansion",
+        "description": "Eröffnung unserer ersten internationalen Büros in Paris, London und New York, wodurch wir unsere globale Präsenz etablierten."
+      },
+      "milestone3": {
+        "title": "Innovation in der Immobilientechnologie",
+        "description": "Pionierarbeit bei der Integration von virtueller Realität und KI-gestütztem Immobilien-Matching zur Verbesserung der Kundenerfahrung."
+      },
+      "milestone4": {
+        "title": "Nachhaltige Luxusinitiative",
+        "description": "Start unseres Engagements für nachhaltigen Luxus, mit Einbindung umweltfreundlicher Praktiken bei allen Immobilien."
+      },
+      "milestone5": {
+        "title": "Globale Anerkennung",
+        "description": "Anerkannt als weltweit führendes Luxusimmobilienunternehmen mit Präsenz in 15 Ländern auf 5 Kontinenten."
+      }
+    },
+    "team": {
+      "title": "Treffen Sie unser Team",
+      "description": "Unser engagiertes Team von Luxusimmobilienexperten vereint jahrzehntelange Erfahrung und eine Leidenschaft für außergewöhnliche Immobilien.",
+      "member1": {
+        "name": "Victoria Richardson",
+        "position": "CEO & Gründerin",
+        "bio": "Mit über 25 Jahren Erfahrung im Luxusimmobilienbereich hat Victoria persönlich den Erwerb und die Entwicklung einiger der prestigeträchtigsten Immobilien der Welt überwacht."
+      },
+      "member2": {
+        "name": "Alexander Laurent",
+        "position": "Chief Investment Officer",
+        "bio": "Alexanders Hintergrund in Finanzen und Immobilieninvestitionen hat unseren Kunden geholfen, beeindruckende Immobilienportfolios in globalen Luxusmärkten aufzubauen."
+      },
+      "member3": {
+        "name": "Sophia Chen",
+        "position": "Leiterin der Architektur",
+        "bio": "Als preisgekrönte Architektin stellt Sophia sicher, dass jede GildedEstate-Immobilie den höchsten Standards in Design-Exzellenz und Innovation entspricht."
+      },
+      "member4": {
+        "name": "Marcus Williams",
+        "position": "Direktor für Kundenbeziehungen",
+        "bio": "Marcus hat ein einzigartiges Talent dafür, die Bedürfnisse der Kunden zu verstehen und sie mit ihrer perfekten Immobilie zu verbinden, unabhängig davon, wie spezifisch ihre Anforderungen sind."
+      }
+    },
+    "values": {
+      "title": "Unsere Philosophie & Werte",
+      "description": "Im Zentrum unseres Ansatzes stehen Kernwerte, die definieren, wie wir arbeiten und welche Erfahrung wir unseren Kunden bieten.",
+      "value1": {
+        "title": "Handwerkskunst",
+        "description": "Wir zelebrieren akribische Aufmerksamkeit für Details in jeder Immobilie, die wir vertreten, und sichern die höchsten Standards in Qualität und Design."
+      },
+      "value2": {
+        "title": "Personalisierung",
+        "description": "Wir glauben, dass echter Luxusservice bedeutet, jede Interaktion auf die einzigartigen Vorlieben und Anforderungen jedes Kunden zuzuschneiden."
+      },
+      "value3": {
+        "title": "Integrität",
+        "description": "Wir arbeiten mit unerschütterlicher Ehrlichkeit und Transparenz und bauen lebenslange Beziehungen auf, die auf Vertrauen und gegenseitigem Respekt basieren."
+      },
+      "value4": {
+        "title": "Innovation",
+        "description": "Wir suchen kontinuierlich nach neuen Wegen, um das Luxusimmobilienerlebnis durch Technologie, Design und Service zu verbessern."
+      }
+    },
+    "achievements": {
+      "title": "Unsere Erfolge",
+      "description": "Anerkennung unseres Engagements für Exzellenz im Bereich Luxusimmobilien weltweit.",
+      "stats": {
+        "properties": "Luxusimmobilien",
+        "satisfaction": "Kundenzufriedenheit",
+        "countries": "Länder",
+        "awards": "Branchenauszeichnungen"
+      },
+      "awardsTitle": "Branchenanerkennung",
+      "awards": {
+        "award1": {
+          "name": "International Property Awards",
+          "description": "Beste Luxusimmobilienagentur weltweit - Anerkennung für außergewöhnlichen Service und Immobilienportfolio."
+        },
+        "award2": {
+          "name": "Luxury Lifestyle Awards",
+          "description": "Exzellenz im Luxusimmobilienbereich - für konstantes Übertreffen der Kundenerwartungen bei Luxusimmobiliendienstleistungen."
+        },
+        "award3": {
+          "name": "Architectural Digest",
+          "description": "Innovation in der Luxusimmobilienentwicklung - Würdigung unseres Beitrags zur architektonischen Exzellenz."
+        }
+      },
+      "testimonialsTitle": "Kundenstimmen",
+      "testimonials": {
+        "testimonial1": {
+          "quote": "Die Zusammenarbeit mit GildedEstate bei der Suche nach unserem Traumhaus war ein außergewöhnliches Erlebnis. Ihre Aufmerksamkeit für Details und das Verständnis unserer Bedürfnisse übertraf bei weitem unsere Erwartungen.",
+          "author": "James & Eleanor Harrington",
+          "position": "London, UK"
+        },
+        "testimonial2": {
+          "quote": "Die Professionalität und Diskretion des GildedEstate-Teams machte den Erwerb unseres internationalen Immobilienportfolios völlig nahtlos.",
+          "author": "Robert Chen",
+          "position": "Hongkong"
+        },
+        "testimonial3": {
+          "quote": "Nach der Zusammenarbeit mit mehreren Luxusagenturen hebt sich GildedEstate deutlich ab. Sie verstehen wirklich, dass Luxus von Personalisierung und tadellosem Service geprägt ist.",
+          "author": "Sophia Laurent",
+          "position": "Paris, Frankreich"
+        }
+      }
+    }
+  },
+  "contact": {
+    "pageTitle": "Kontakt GildedEstate - Luxusimmobilien",
+    "pageDescription": "Nehmen Sie Kontakt mit unseren Luxusimmobilienexperten für persönliche Immobilienberatung und außergewöhnlichen Service auf.",
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir sind hier, um Ihnen einen außergewöhnlichen Service zu bieten",
+    "form": {
+      "title": "Senden Sie uns eine Nachricht",
+      "name": "Name",
+      "namePlaceholder": "Ihr vollständiger Name",
+      "email": "E-Mail",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "phone": "Telefon",
+      "phonePlaceholder": "Ihre Telefonnummer",
+      "phoneOptional": "Optional, aber empfohlen für schnelle Antwort",
+      "inquiryType": "Anfragetyp",
+      "inquiryTypePlaceholder": "Wählen Sie einen Anfragetyp",
+      "inquiryTypes": {
+        "propertyViewing": "Immobilienbesichtigung",
+        "investment": "Investitionsmöglichkeit",
+        "consultation": "Private Beratung",
+        "partnership": "Geschäftspartnerschaft",
+        "other": "Andere Anfrage"
+      },
+      "preferredContact": "Bevorzugte Kontaktmethode",
+      "preferredContactPlaceholder": "Wählen Sie bevorzugte Kontaktmethode",
+      "contactMethods": {
+        "email": "E-Mail",
+        "phone": "Telefon",
+        "any": "Beides"
+      },
+      "message": "Nachricht",
+      "messagePlaceholder": "Erzählen Sie uns mehr über Ihre Anfrage...",
+      "submit": "Nachricht senden",
+      "submitting": "Sendet...",
+      "success": "Nachricht gesendet",
+      "successMessage": "Vielen Dank für Ihre Kontaktaufnahme. Ein Mitglied unseres Teams wird sich in Kürze mit Ihnen in Verbindung setzen.",
+      "error": "Übermittlungsfehler",
+      "errorMessage": "Bei der Übermittlung Ihrer Nachricht ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+    },
+    "officeLocation": "Unser Bürostandort",
+    "mainOffice": "GildedEstate Hauptsitz",
+    "workingHours": {
+      "weekdays": "Montag - Freitag: 9:00 - 19:00 Uhr",
+      "weekend": "Samstag: 10:00 - 16:00 Uhr"
+    },
+    "departmentsTitle": "Spezialisierte Abteilungen",
+    "departments": {
+      "sales": {
+        "name": "Luxusverkauf"
+      },
+      "customerService": {
+        "name": "Kundenservice"
+      },
+      "investments": {
+        "name": "Investmentberatung"
+      }
+    },
+    "concierge": {
+      "title": "Persönlicher Concierge-Service",
+      "description": "Erleben Sie unseren Premium-Concierge-Service mit engagierten Immobilienberatern, die Ihnen während Ihrer gesamten Luxusimmobilienreise persönliche Betreuung bieten.",
+      "scheduleButton": "Beratungstermin vereinbaren",
+      "member1": {
+        "name": "Alexander Laurent",
+        "position": "Senior Immobilienberater",
+        "expertise": "Spezialisiert auf Ultraluxus-Wohnimmobilien und Investitionsmöglichkeiten in wichtigen europäischen Märkten."
+      },
+      "member2": {
+        "name": "Sophia Chen",
+        "position": "Architekturberaterin",
+        "expertise": "Expertin für Architekturbewertung, Anleitung bei Immobilienrenovierungen und maßgeschneiderte Designlösungen für anspruchsvolle Kunden."
+      },
+      "form": {
+        "title": "Planen Sie Ihre Beratung",
+        "description": "Füllen Sie das untenstehende Formular aus, um eine persönliche Beratung mit einem unserer Luxusimmobilienexperten zu vereinbaren.",
+        "name": "Vollständiger Name",
+        "namePlaceholder": "Ihr vollständiger Name",
+        "email": "E-Mail-Adresse",
+        "emailPlaceholder": "Ihre E-Mail-Adresse",
+        "phone": "Telefonnummer",
+        "phonePlaceholder": "Ihre Telefonnummer",
+        "date": "Bevorzugtes Datum",
+        "datePlaceholder": "Wählen Sie ein Datum",
+        "concierge": "Berater auswählen",
+        "conciergePlaceholder": "Wählen Sie Ihren bevorzugten Berater",
+        "submit": "Termin bestätigen",
+        "submitting": "Plant...",
+        "cancel": "Abbrechen",
+        "success": "Beratungstermin geplant",
+        "successMessage": "Ihr Beratungstermin wurde bestätigt. Sie erhalten in Kürze eine Bestätigung per E-Mail.",
+        "error": "Planungsfehler",
+        "errorMessage": "Bei der Planung Ihrer Beratung ist ein Problem aufgetreten. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+      },
+      "guarantee": {
+        "title": "Unsere Privatkundengarantie",
+        "description": "Wenn Sie mit unserem Concierge-Service arbeiten, erhalten Sie unsere exklusive Aufmerksamkeit und unser Engagement für die Erfüllung Ihrer Immobilienziele.",
+        "point1": "24/7 Verfügbarkeit",
+        "point2": "Absolute Diskretion"
+      }
+    },
+    "faq": {
+      "title": "Häufig gestellte Fragen",
+      "question1": "Auf welche Bereiche sind Sie bei Luxusimmobilien spezialisiert?",
+      "answer1": "Wir sind auf Premium-Immobilien in den wichtigsten globalen Luxusmärkten spezialisiert, darunter London, Paris, New York, Hongkong, Dubai und viele andere exklusive Standorte. Unser Portfolio umfasst städtische Penthäuser, Anwesen am Wasser, historische Immobilien und Privatinseln.",
+      "question2": "Wie funktioniert Ihr Immobilienerwerbsprozess?",
+      "answer2": "Unser Prozess beginnt mit einer detaillierten Beratung, um Ihre spezifischen Anforderungen zu verstehen. Dann kuratieren wir eine Auswahl an Immobilien, die Ihren Kriterien entsprechen, oft einschließlich Off-Market-Angeboten, die exklusiv für unser Netzwerk sind. Wir kümmern uns um alle Aspekte der Transaktion, von der Organisation von Besichtigungen bis hin zu endgültigen Verhandlungen und Abschluss, und bieten ein nahtloses Erlebnis.",
+      "question3": "Bieten Sie Dienstleistungen für internationale Käufer an?",
+      "answer3": "Ja, wir haben umfangreiche Erfahrung mit internationalen Kunden und bieten spezialisierte Dienstleistungen an, darunter virtuelle Touren, rechtliche Beratung zum ausländischen Eigentum, Steuereffizienzstrategien und Umzugsunterstützung. Unser mehrsprachiges Team sorgt für klare Kommunikation während des gesamten Prozesses.",
+      "question4": "Welche Anlageberatungsdienste bieten Sie an?",
+      "answer4": "Unser Anlageberatungsteam bietet umfassende Marktanalysen, Portfoliodiversifizierungsstrategien, Renditeoptimierung und langfristige Anlageplanung. Wir identifizieren aufstrebende Luxusmärkte und exklusive Möglichkeiten, bevor sie allgemein verfügbar werden.",
+      "question5": "Können Sie bei der Immobilienverwaltung nach dem Kauf helfen?",
+      "answer5": "Absolut. Wir bieten umfassende Immobilienverwaltungsdienste an, darunter Instandhaltung, Sicherheit, Personalrekrutierung, Mietverwaltung und saisonale Vorbereitung für Zweitwohnungen. Unser Concierge-Service kann auch alles vom Innendesign bis zur Integration von Haustechnologie arrangieren."
+    }
+  },
   "properties": {
     "search": "Immobilien suchen",
     "filters": {
@@ -67,22 +307,6 @@
     "squareFeet": "Quadratmeter",
     "contactAgent": "Makler kontaktieren",
     "schedule": "Besichtigung planen"
-  },
-  "contact": {
-    "title": "Kontaktieren Sie uns",
-    "subtitle": "Wir würden gerne von Ihnen hören",
-    "form": {
-      "name": "Name",
-      "email": "E-Mail",
-      "phone": "Telefon (optional)",
-      "message": "Nachricht",
-      "submit": "Nachricht senden",
-      "success": "Nachricht erfolgreich gesendet!",
-      "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten."
-    },
-    "officeLocation": "Bürostandort",
-    "phoneNumber": "Telefonnummer",
-    "emailAddress": "E-Mail-Adresse"
   },
   "auth": {
     "signIn": {
