@@ -1,0 +1,52 @@
+
+# GildedEstate Development Rules
+
+## Language Requirements
+- All code comments and documentation must be in Lithuanian
+- Technical terms and variable names can remain in English
+- User-facing content should be managed through LanguageContext.tsx for future localization
+
+## Technical Constraints
+- Follow established folder hierarchy for all new components
+- Maintain TypeScript for all component development
+- Adhere to the luxury design system established in the codebase
+- Use React Query for all server state management
+- Implement proper form validation with zod and react-hook-form
+- Optimize all images using lazy loading techniques
+
+## Database Rules
+- Follow the database schema defined in DB_INFO.md
+- Implement Row Level Security (RLS) policies for all tables
+- Document all database changes in both DB_INFO.md and CHANGELOG.md
+
+## Coding Standards
+- Use consistent naming conventions throughout
+- Write comprehensive comments in Lithuanian
+- Maintain responsive design for all components
+- Implement proper error handling with user-friendly messages
+- Follow the established component architecture
+
+## Design Guidelines
+- Maintain the luxury aesthetic with gold accents and elegant typography
+- Use the Playfair Display font for headings
+- Use the Inter font for body text
+- Follow the color palette defined in tailwind.config.ts
+- Implement subtle animations for enhanced user experience
+
+## Accessibility Requirements
+- Ensure proper contrast ratios for all text
+- Provide alt text for all images
+- Implement keyboard navigation for all interactive elements
+- Test with screen readers for proper accessibility
+
+## Documentation
+- Update CHANGELOG.md for all significant changes
+- Maintain ROADMAP.md for future development plans
+- Document all API endpoints and database schema changes
+- Add Lithuanian comments to explain complex logic
+
+## Performance Considerations
+- Optimize image loading with proper techniques
+- Implement code splitting where appropriate
+- Use memoization for expensive calculations
+- Monitor and optimize bundle size

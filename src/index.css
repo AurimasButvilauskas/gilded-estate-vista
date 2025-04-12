@@ -1,10 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;700;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    --background: 42 33% 99%;
     --foreground: 222.2 84% 4.9%;
 
     --card: 0 0% 100%;
@@ -13,10 +16,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 222.2 47.4% 11.2%;
+    --primary: 221 39% 11%;
     --primary-foreground: 210 40% 98%;
 
-    --secondary: 210 40% 96.1%;
+    --secondary: 45 76% 52%;
     --secondary-foreground: 222.2 47.4% 11.2%;
 
     --muted: 210 40% 96.1%;
@@ -35,24 +38,17 @@
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
-
     --sidebar-foreground: 240 5.3% 26.1%;
-
     --sidebar-primary: 240 5.9% 10%;
-
     --sidebar-primary-foreground: 0 0% 98%;
-
     --sidebar-accent: 240 4.8% 95.9%;
-
     --sidebar-accent-foreground: 240 5.9% 10%;
-
     --sidebar-border: 220 13% 91%;
-
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
+    --background: 219 35% 10%;
     --foreground: 210 40% 98%;
 
     --card: 222.2 84% 4.9%;
@@ -64,7 +60,7 @@
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 45 76% 52%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -79,6 +75,7 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
+    
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
     --sidebar-primary: 224.3 76.3% 48%;
@@ -97,5 +94,67 @@
 
   body {
     @apply bg-background text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-playfair;
+  }
+  
+  p, span, a, button, input, textarea {
+    @apply font-inter;
+  }
+}
+
+@layer components {
+  .luxury-container {
+    @apply container mx-auto px-4 md:px-8;
+  }
+  
+  .section-padding {
+    @apply py-16 md:py-24;
+  }
+  
+  .luxury-heading {
+    @apply font-playfair font-bold text-luxury-navy;
+  }
+  
+  .luxury-subheading {
+    @apply font-playfair text-luxury-charcoal;
+  }
+  
+  .gold-accent {
+    @apply text-luxury-gold;
+  }
+  
+  .luxury-btn {
+    @apply px-6 py-3 font-inter font-medium transition-all duration-300;
+  }
+  
+  .luxury-btn-primary {
+    @apply luxury-btn bg-luxury-navy text-white hover:bg-opacity-90;
+  }
+  
+  .luxury-btn-secondary {
+    @apply luxury-btn bg-luxury-gold text-luxury-navy hover:bg-opacity-90;
+  }
+  
+  .luxury-btn-outline {
+    @apply luxury-btn border border-luxury-navy text-luxury-navy hover:bg-luxury-navy hover:text-white;
+  }
+  
+  .image-hover {
+    @apply transition-all duration-500 hover:scale-105;
+  }
+  
+  .property-card {
+    @apply relative overflow-hidden rounded-lg shadow-lg transition-all duration-300 hover:shadow-xl;
+  }
+  
+  .gold-border {
+    @apply border-2 border-luxury-gold;
+  }
+  
+  .glass-effect {
+    @apply bg-white bg-opacity-20 backdrop-blur-lg;
   }
 }
