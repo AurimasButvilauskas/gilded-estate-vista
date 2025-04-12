@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { PhoneCall, Mail, Clock, ChevronRight } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
+import { supabase } from "@/integrations/supabase/client";
 
 const ContactSection = () => {
   const { toast } = useToast();
@@ -13,31 +14,64 @@ const ContactSection = () => {
     message: "",
     interest: "buying"
   });
+  const [isSubmitting, setIsSubmitting] = useState(false);
   
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setFormData(prev => ({ ...prev, [name]: value }));
   };
   
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    setIsSubmitting(true);
     
-    // Show success toast
-    toast({
-      title: "Message Sent",
-      description: "Thank you for your message. We'll get back to you shortly.",
-      variant: "default",
-    });
-    
-    // Reset form
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      message: "",
-      interest: "buying"
-    });
+    try {
+      // Save message to Supabase
+      const { error } = await supabase
+        .from('contact_messages')
+        .insert({
+          name: formData.name,
+          email: formData.email,
+          phone: formData.phone || null,
+          message: formData.message,
+          status: 'new',
+        });
+      
+      if (error) {
+        console.error('Error submitting contact form:', error);
+        toast({
+          title: "Error",
+          description: "There was a problem sending your message. Please try again.",
+          variant: "destructive",
+        });
+        return;
+      }
+      
+      // Show success toast
+      toast({
+        title: "Message Sent",
+        description: "Thank you for your message. We'll get back to you shortly.",
+        variant: "default",
+      });
+      
+      // Reset form
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        message: "",
+        interest: "buying"
+      });
+    } catch (error) {
+      console.error('Error:', error);
+      toast({
+        title: "Error",
+        description: "There was a problem sending your message. Please try again.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsSubmitting(false);
+    }
   };
   
   return (
@@ -69,6 +103,7 @@ const ContactSection = () => {
                       required
                       className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-luxury-gold"
                       placeholder="John Doe"
+                      disabled={isSubmitting}
                     />
                   </div>
                   <div>
@@ -84,6 +119,7 @@ const ContactSection = () => {
                       required
                       className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-luxury-gold"
                       placeholder="john@example.com"
+                      disabled={isSubmitting}
                     />
                   </div>
                 </div>
@@ -101,6 +137,7 @@ const ContactSection = () => {
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-luxury-gold"
                       placeholder="+1 (123) 456-7890"
+                      disabled={isSubmitting}
                     />
                   </div>
                   <div>
@@ -113,6 +150,7 @@ const ContactSection = () => {
                       value={formData.interest}
                       onChange={handleChange}
                       className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-luxury-gold"
+                      disabled={isSubmitting}
                     >
                       <option value="buying">Buying a Property</option>
                       <option value="selling">Selling a Property</option>
@@ -135,12 +173,18 @@ const ContactSection = () => {
                     rows={4}
                     className="w-full px-4 py-3 rounded-md border border-gray-300 focus:outline-none focus:ring-2 focus:ring-luxury-gold"
                     placeholder="Tell us how we can help you..."
+                    disabled={isSubmitting}
                   ></textarea>
                 </div>
                 
                 <div>
-                  <Button type="submit" className="w-full bg-luxury-gold text-luxury-navy hover:bg-luxury-gold/90">
-                    Send Message <ChevronRight size={16} className="ml-2" />
+                  <Button 
+                    type="submit" 
+                    className="w-full bg-luxury-gold text-luxury-navy hover:bg-luxury-gold/90"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? "Sending..." : "Send Message"} 
+                    {!isSubmitting && <ChevronRight size={16} className="ml-2" />}
                   </Button>
                 </div>
               </form>
