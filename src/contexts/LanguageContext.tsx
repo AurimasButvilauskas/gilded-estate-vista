@@ -14,7 +14,11 @@ interface LanguageContextType {
   }[];
 }
 
-export const supportedLanguages = [
+export const supportedLanguages: {
+  code: SupportedLanguage;
+  name: string;
+  flag: string;
+}[] = [
   { code: 'en', name: 'English', flag: '🇬🇧' },
   { code: 'lt', name: 'Lietuvių', flag: '🇱🇹' },
   { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
@@ -28,7 +32,7 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
 
   useEffect(() => {
     // Get stored language from localStorage or detect browser language
-    const storedLanguage = localStorage.getItem('preferredLanguage') as SupportedLanguage;
+    const storedLanguage = localStorage.getItem('preferredLanguage') as SupportedLanguage | null;
     
     if (storedLanguage && supportedLanguages.some(lang => lang.code === storedLanguage)) {
       setCurrentLanguage(storedLanguage);
