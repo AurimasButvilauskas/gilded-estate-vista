@@ -157,4 +157,8 @@
   .glass-effect {
     @apply bg-white bg-opacity-20 backdrop-blur-lg;
   }
+  
+  .prose-luxury {
+    @apply prose prose-slate max-w-none prose-headings:font-playfair prose-headings:text-luxury-navy prose-p:text-luxury-charcoal prose-a:text-luxury-gold prose-a:no-underline hover:prose-a:underline prose-strong:text-luxury-navy;
+  }
 }
