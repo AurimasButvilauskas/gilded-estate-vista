@@ -1,0 +1,109 @@
+
+{
+  "common": {
+    "navigation": {
+      "home": "Pagrindinis",
+      "properties": "Nekilnojamas turtas",
+      "about": "Apie mus",
+      "contact": "Kontaktai",
+      "signin": "Prisijungti",
+      "register": "Registruotis"
+    },
+    "footer": {
+      "quickLinks": "Greitos nuorodos",
+      "contactUs": "Susisiekite su mumis",
+      "stayUpdated": "Gaukite naujienas",
+      "subscribe": "Prenumeruoti",
+      "emailPlaceholder": "Jūsų el. pašto adresas",
+      "copyright": "© {{year}} GildedEstate. Visos teisės saugomos.",
+      "privacyPolicy": "Privatumo politika"
+    },
+    "languageSelector": {
+      "selectLanguage": "Pasirinkite kalbą"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Išskirtinės nekilnojamojo turto pasiūlos išskirtiniems žmonėms",
+      "subtitle": "Atraskite prabangų gyvenimą jo geriausia forma",
+      "ctaButton": "Žiūrėti nekilnojamą turtą"
+    },
+    "featuredProperties": {
+      "title": "Išskirtiniai pasiūlymai",
+      "viewAll": "Žiūrėti visus"
+    },
+    "testimonials": {
+      "title": "Ką sako mūsų klientai",
+      "description": "Išgirskite atsiliepimus tų, kurie su mumis rado svajonių namus"
+    },
+    "contact": {
+      "title": "Susisiekite",
+      "description": "Esame čia, kad atsakytume į visus jūsų klausimus",
+      "namePlaceholder": "Jūsų vardas",
+      "emailPlaceholder": "Jūsų el. paštas",
+      "messagePlaceholder": "Jūsų žinutė",
+      "submitButton": "Siųsti žinutę"
+    }
+  },
+  "properties": {
+    "search": "Ieškoti nekilnojamo turto",
+    "filters": {
+      "title": "Filtrai",
+      "priceRange": "Kainų intervalas",
+      "bedrooms": "Miegamieji",
+      "propertyType": "Nekilnojamo turto tipas",
+      "applyFilters": "Taikyti filtrus",
+      "resetFilters": "Atstatyti"
+    },
+    "noResults": "Nerasta nekilnojamo turto, atitinkančio jūsų kriterijus",
+    "featuredTag": "Išskirtinis"
+  },
+  "propertyDetail": {
+    "features": "Ypatybės",
+    "address": "Adresas",
+    "price": "Kaina",
+    "bedrooms": "Miegamieji",
+    "bathrooms": "Vonios",
+    "squareFeet": "Kvadratiniai metrai",
+    "contactAgent": "Susisiekti su agentu",
+    "schedule": "Suplanuoti apžiūrą"
+  },
+  "contact": {
+    "title": "Susisiekite su mumis",
+    "subtitle": "Mielai išklausysime jus",
+    "form": {
+      "name": "Vardas",
+      "email": "El. paštas",
+      "phone": "Telefonas (neprivalomas)",
+      "message": "Žinutė",
+      "submit": "Siųsti žinutę",
+      "success": "Žinutė sėkmingai išsiųsta!",
+      "error": "Įvyko klaida siunčiant jūsų žinutę."
+    },
+    "officeLocation": "Biuro vieta",
+    "phoneNumber": "Telefono numeris",
+    "emailAddress": "El. pašto adresas"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Prisijungti",
+      "emailPlaceholder": "El. paštas",
+      "passwordPlaceholder": "Slaptažodis",
+      "rememberMe": "Prisiminti mane",
+      "forgotPassword": "Pamiršote slaptažodį?",
+      "submitButton": "Prisijungti",
+      "noAccount": "Neturite paskyros?",
+      "createAccount": "Sukurti paskyrą"
+    },
+    "signUp": {
+      "title": "Registruotis",
+      "namePlaceholder": "Pilnas vardas",
+      "emailPlaceholder": "El. paštas",
+      "passwordPlaceholder": "Slaptažodis",
+      "confirmPasswordPlaceholder": "Patvirtinti slaptažodį",
+      "submitButton": "Registruotis",
+      "haveAccount": "Jau turite paskyrą?",
+      "signIn": "Prisijungti"
+    }
+  }
+}

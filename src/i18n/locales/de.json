@@ -1,0 +1,109 @@
+
+{
+  "common": {
+    "navigation": {
+      "home": "Startseite",
+      "properties": "Immobilien",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "signin": "Anmelden",
+      "register": "Registrieren"
+    },
+    "footer": {
+      "quickLinks": "Schnellzugriff",
+      "contactUs": "Kontaktieren Sie uns",
+      "stayUpdated": "Bleiben Sie auf dem Laufenden",
+      "subscribe": "Abonnieren",
+      "emailPlaceholder": "Ihre E-Mail-Adresse",
+      "copyright": "© {{year}} GildedEstate. Alle Rechte vorbehalten.",
+      "privacyPolicy": "Datenschutzrichtlinie"
+    },
+    "languageSelector": {
+      "selectLanguage": "Sprache auswählen"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Außergewöhnliche Immobilien für außergewöhnliche Menschen",
+      "subtitle": "Entdecken Sie luxuriöses Wohnen auf höchstem Niveau",
+      "ctaButton": "Immobilien anzeigen"
+    },
+    "featuredProperties": {
+      "title": "Ausgewählte Immobilien",
+      "viewAll": "Alle anzeigen"
+    },
+    "testimonials": {
+      "title": "Was unsere Kunden sagen",
+      "description": "Hören Sie von denjenigen, die mit uns ihr Traumhaus gefunden haben"
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "description": "Wir sind hier, um alle Ihre Fragen zu beantworten",
+      "namePlaceholder": "Ihr Name",
+      "emailPlaceholder": "Ihre E-Mail",
+      "messagePlaceholder": "Ihre Nachricht",
+      "submitButton": "Nachricht senden"
+    }
+  },
+  "properties": {
+    "search": "Immobilien suchen",
+    "filters": {
+      "title": "Filter",
+      "priceRange": "Preisbereich",
+      "bedrooms": "Schlafzimmer",
+      "propertyType": "Immobilientyp",
+      "applyFilters": "Filter anwenden",
+      "resetFilters": "Zurücksetzen"
+    },
+    "noResults": "Keine Immobilien gefunden, die Ihren Kriterien entsprechen",
+    "featuredTag": "Hervorgehoben"
+  },
+  "propertyDetail": {
+    "features": "Eigenschaften",
+    "address": "Adresse",
+    "price": "Preis",
+    "bedrooms": "Schlafzimmer",
+    "bathrooms": "Badezimmer",
+    "squareFeet": "Quadratmeter",
+    "contactAgent": "Makler kontaktieren",
+    "schedule": "Besichtigung planen"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Wir würden gerne von Ihnen hören",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "phone": "Telefon (optional)",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten."
+    },
+    "officeLocation": "Bürostandort",
+    "phoneNumber": "Telefonnummer",
+    "emailAddress": "E-Mail-Adresse"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Anmelden",
+      "emailPlaceholder": "E-Mail",
+      "passwordPlaceholder": "Passwort",
+      "rememberMe": "Angemeldet bleiben",
+      "forgotPassword": "Passwort vergessen?",
+      "submitButton": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "createAccount": "Konto erstellen"
+    },
+    "signUp": {
+      "title": "Registrieren",
+      "namePlaceholder": "Vollständiger Name",
+      "emailPlaceholder": "E-Mail",
+      "passwordPlaceholder": "Passwort",
+      "confirmPasswordPlaceholder": "Passwort bestätigen",
+      "submitButton": "Registrieren",
+      "haveAccount": "Haben Sie bereits ein Konto?",
+      "signIn": "Anmelden"
+    }
+  }
+}

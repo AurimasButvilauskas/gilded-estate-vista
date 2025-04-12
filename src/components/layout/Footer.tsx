@@ -1,8 +1,12 @@
 
 import { Link } from "react-router-dom";
 import { Facebook, Instagram, Twitter, Mail, Phone, MapPin } from "lucide-react";
+import { useTranslation } from "react-i18next";
 
 const Footer = () => {
+  const { t } = useTranslation();
+  const currentYear = new Date().getFullYear();
+
   return (
     <footer className="bg-luxury-navy text-white">
       <div className="luxury-container py-16">
@@ -31,29 +35,43 @@ const Footer = () => {
           
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-playfair font-semibold mb-6 text-luxury-gold">Quick Links</h4>
+            <h4 className="text-lg font-playfair font-semibold mb-6 text-luxury-gold">
+              {t('common.footer.quickLinks')}
+            </h4>
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="text-gray-300 hover:text-luxury-gold transition-colors">Home</Link>
+                <Link to="/" className="text-gray-300 hover:text-luxury-gold transition-colors">
+                  {t('common.navigation.home')}
+                </Link>
               </li>
               <li>
-                <Link to="/properties" className="text-gray-300 hover:text-luxury-gold transition-colors">Properties</Link>
+                <Link to="/properties" className="text-gray-300 hover:text-luxury-gold transition-colors">
+                  {t('common.navigation.properties')}
+                </Link>
               </li>
               <li>
-                <Link to="/about" className="text-gray-300 hover:text-luxury-gold transition-colors">About Us</Link>
+                <Link to="/about" className="text-gray-300 hover:text-luxury-gold transition-colors">
+                  {t('common.navigation.about')}
+                </Link>
               </li>
               <li>
-                <Link to="/contact" className="text-gray-300 hover:text-luxury-gold transition-colors">Contact</Link>
+                <Link to="/contact" className="text-gray-300 hover:text-luxury-gold transition-colors">
+                  {t('common.navigation.contact')}
+                </Link>
               </li>
               <li>
-                <Link to="/privacy" className="text-gray-300 hover:text-luxury-gold transition-colors">Privacy Policy</Link>
+                <Link to="/privacy" className="text-gray-300 hover:text-luxury-gold transition-colors">
+                  {t('common.footer.privacyPolicy')}
+                </Link>
               </li>
             </ul>
           </div>
           
           {/* Contact Info */}
           <div>
-            <h4 className="text-lg font-playfair font-semibold mb-6 text-luxury-gold">Contact Us</h4>
+            <h4 className="text-lg font-playfair font-semibold mb-6 text-luxury-gold">
+              {t('common.footer.contactUs')}
+            </h4>
             <ul className="space-y-4">
               <li className="flex items-start">
                 <MapPin size={20} className="mr-3 text-luxury-gold flex-shrink-0 mt-1" />
@@ -72,21 +90,23 @@ const Footer = () => {
           
           {/* Newsletter */}
           <div>
-            <h4 className="text-lg font-playfair font-semibold mb-6 text-luxury-gold">Stay Updated</h4>
+            <h4 className="text-lg font-playfair font-semibold mb-6 text-luxury-gold">
+              {t('common.footer.stayUpdated')}
+            </h4>
             <p className="text-gray-300 mb-4">
-              Subscribe to our newsletter for exclusive property updates.
+              {t('common.footer.stayUpdated')}
             </p>
             <form className="flex flex-col space-y-3">
               <input 
                 type="email" 
-                placeholder="Your email address" 
+                placeholder={t('common.footer.emailPlaceholder')}
                 className="bg-luxury-navy/50 text-white placeholder:text-gray-400 border border-gray-600 rounded px-4 py-2 focus:outline-none focus:ring-1 focus:ring-luxury-gold"
               />
               <button 
                 type="submit" 
                 className="bg-luxury-gold text-luxury-navy font-medium px-4 py-2 rounded hover:bg-luxury-gold/90 transition-colors"
               >
-                Subscribe
+                {t('common.footer.subscribe')}
               </button>
             </form>
           </div>
@@ -94,7 +114,7 @@ const Footer = () => {
         
         {/* Copyright */}
         <div className="border-t border-gray-700 mt-16 pt-8 text-center text-gray-400">
-          <p>© {new Date().getFullYear()} GildedEstate. All rights reserved.</p>
+          <p>{t('common.footer.copyright', { year: currentYear })}</p>
         </div>
       </div>
     </footer>

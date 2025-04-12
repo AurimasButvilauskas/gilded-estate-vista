@@ -1,0 +1,109 @@
+
+{
+  "common": {
+    "navigation": {
+      "home": "Accueil",
+      "properties": "Propriétés",
+      "about": "À propos",
+      "contact": "Contact",
+      "signin": "Connexion",
+      "register": "S'inscrire"
+    },
+    "footer": {
+      "quickLinks": "Liens rapides",
+      "contactUs": "Contactez-nous",
+      "stayUpdated": "Restez informé",
+      "subscribe": "S'abonner",
+      "emailPlaceholder": "Votre adresse email",
+      "copyright": "© {{year}} GildedEstate. Tous droits réservés.",
+      "privacyPolicy": "Politique de confidentialité"
+    },
+    "languageSelector": {
+      "selectLanguage": "Sélectionner la langue"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Des propriétés exceptionnelles pour des personnes exceptionnelles",
+      "subtitle": "Découvrez le luxe à son meilleur",
+      "ctaButton": "Voir les propriétés"
+    },
+    "featuredProperties": {
+      "title": "Propriétés en vedette",
+      "viewAll": "Voir tout"
+    },
+    "testimonials": {
+      "title": "Ce que disent nos clients",
+      "description": "Écoutez ceux qui ont trouvé leur maison de rêve avec nous"
+    },
+    "contact": {
+      "title": "Entrez en contact",
+      "description": "Nous sommes là pour répondre à toutes vos questions",
+      "namePlaceholder": "Votre nom",
+      "emailPlaceholder": "Votre email",
+      "messagePlaceholder": "Votre message",
+      "submitButton": "Envoyer le message"
+    }
+  },
+  "properties": {
+    "search": "Rechercher des propriétés",
+    "filters": {
+      "title": "Filtres",
+      "priceRange": "Fourchette de prix",
+      "bedrooms": "Chambres",
+      "propertyType": "Type de propriété",
+      "applyFilters": "Appliquer les filtres",
+      "resetFilters": "Réinitialiser"
+    },
+    "noResults": "Aucune propriété trouvée correspondant à vos critères",
+    "featuredTag": "En vedette"
+  },
+  "propertyDetail": {
+    "features": "Caractéristiques",
+    "address": "Adresse",
+    "price": "Prix",
+    "bedrooms": "Chambres",
+    "bathrooms": "Salles de bain",
+    "squareFeet": "Mètres carrés",
+    "contactAgent": "Contacter l'agent",
+    "schedule": "Planifier une visite"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Nous aimerions vous entendre",
+    "form": {
+      "name": "Nom",
+      "email": "Email",
+      "phone": "Téléphone (facultatif)",
+      "message": "Message",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé avec succès !",
+      "error": "Une erreur s'est produite lors de l'envoi de votre message."
+    },
+    "officeLocation": "Emplacement du bureau",
+    "phoneNumber": "Numéro de téléphone",
+    "emailAddress": "Adresse email"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Connexion",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Mot de passe",
+      "rememberMe": "Se souvenir de moi",
+      "forgotPassword": "Mot de passe oublié ?",
+      "submitButton": "Se connecter",
+      "noAccount": "Pas encore de compte ?",
+      "createAccount": "Créer un compte"
+    },
+    "signUp": {
+      "title": "S'inscrire",
+      "namePlaceholder": "Nom complet",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Mot de passe",
+      "confirmPasswordPlaceholder": "Confirmer le mot de passe",
+      "submitButton": "S'inscrire",
+      "haveAccount": "Vous avez déjà un compte ?",
+      "signIn": "Se connecter"
+    }
+  }
+}

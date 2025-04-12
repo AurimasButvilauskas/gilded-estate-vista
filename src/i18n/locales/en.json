@@ -1,0 +1,109 @@
+
+{
+  "common": {
+    "navigation": {
+      "home": "Home",
+      "properties": "Properties",
+      "about": "About",
+      "contact": "Contact",
+      "signin": "Sign In",
+      "register": "Register"
+    },
+    "footer": {
+      "quickLinks": "Quick Links",
+      "contactUs": "Contact Us",
+      "stayUpdated": "Stay Updated",
+      "subscribe": "Subscribe",
+      "emailPlaceholder": "Your email address",
+      "copyright": "© {{year}} GildedEstate. All rights reserved.",
+      "privacyPolicy": "Privacy Policy"
+    },
+    "languageSelector": {
+      "selectLanguage": "Select language"
+    }
+  },
+  "home": {
+    "hero": {
+      "title": "Exceptional Properties for Exceptional People",
+      "subtitle": "Discover luxury living at its finest",
+      "ctaButton": "View Properties"
+    },
+    "featuredProperties": {
+      "title": "Featured Properties",
+      "viewAll": "View All"
+    },
+    "testimonials": {
+      "title": "What Our Clients Say",
+      "description": "Hear from those who have found their dream homes with us"
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "description": "We're here to answer any questions you may have",
+      "namePlaceholder": "Your name",
+      "emailPlaceholder": "Your email",
+      "messagePlaceholder": "Your message",
+      "submitButton": "Send Message"
+    }
+  },
+  "properties": {
+    "search": "Search properties",
+    "filters": {
+      "title": "Filters",
+      "priceRange": "Price Range",
+      "bedrooms": "Bedrooms",
+      "propertyType": "Property Type",
+      "applyFilters": "Apply Filters",
+      "resetFilters": "Reset"
+    },
+    "noResults": "No properties found matching your criteria",
+    "featuredTag": "Featured"
+  },
+  "propertyDetail": {
+    "features": "Features",
+    "address": "Address",
+    "price": "Price",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "squareFeet": "Square Feet",
+    "contactAgent": "Contact Agent",
+    "schedule": "Schedule a Viewing"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone (optional)",
+      "message": "Message",
+      "submit": "Send Message",
+      "success": "Message sent successfully!",
+      "error": "There was an error sending your message."
+    },
+    "officeLocation": "Office Location",
+    "phoneNumber": "Phone Number",
+    "emailAddress": "Email Address"
+  },
+  "auth": {
+    "signIn": {
+      "title": "Sign In",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "rememberMe": "Remember me",
+      "forgotPassword": "Forgot password?",
+      "submitButton": "Sign In",
+      "noAccount": "Don't have an account?",
+      "createAccount": "Create account"
+    },
+    "signUp": {
+      "title": "Register",
+      "namePlaceholder": "Full Name",
+      "emailPlaceholder": "Email",
+      "passwordPlaceholder": "Password",
+      "confirmPasswordPlaceholder": "Confirm Password",
+      "submitButton": "Register",
+      "haveAccount": "Already have an account?",
+      "signIn": "Sign in"
+    }
+  }
+}
